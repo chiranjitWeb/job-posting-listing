@@ -1,0 +1,362 @@
+#job-filters {
+    margin: 0 auto 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.job-card {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 10px 30px 0px #12374026;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.job-card figure {
+    margin: 0;
+    padding: 0;
+    width: 7%;
+}
+
+.job-card .job-title-experience {
+    width: 35%;
+}
+
+.job-card .job-location {
+    width: 20%;
+}
+
+.job-card .job-type {
+    width: 20%;
+}
+
+.job-card .job-type span {
+    display: inline-block;
+    background: #1237401A;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.job-card .apply-btn {
+    width: 18%;
+}
+
+.job-card h3 {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", Sans-serif !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    line-height: 30px;
+    text-align: left;
+    color: #123740 !important;
+}
+
+.job-card .job-experience {
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #6B6B6B;
+}
+
+.job-location {
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #6B6B6B;
+}
+
+.job-type {
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #6B6B6B;
+}
+
+.apply-btn {
+    width: 100%;
+    background: #E74916 url(https://3r.projectnyou.com/wp-content/uploads/2024/07/arrow.png) no-repeat right !important;
+    color: #FFFFFF !important;
+    font-size: 16px;
+    font-weight: 600 !important;
+    padding: 10px 50px 10px 25px !important;
+    border: none;
+    border-radius: 8px;
+}
+
+.apply-btn:hover {
+    background-color: #123740;
+}
+
+#job_filters select {
+    border: 1px solid #E1E1E1;
+}
+
+.content-top-section {
+    margin: 0 auto;
+    padding: 70px 0;
+    max-width: 100%;
+    background-color: #F4F4F4;
+    text-align: center;
+}
+
+.content-top-section h1 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.2;
+    text-align: center;
+    color: #123740;
+}
+
+.content-top-section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.content-top-section ul li {
+    font-family: "Poppins", Sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    color: #6B6B6B;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.content-area {
+    margin: 0 auto;
+    padding: 70px 15px;
+    max-width: 1200px;
+}
+
+.content-area h2 {
+    font-family: "Poppins", Sans-serif !important;
+    font-size: 30px !important;
+    font-weight: 700 !important;
+    line-height: 1.2;
+    text-align: left;
+    color: #123740;
+}
+
+.content-area h3 {
+    font-family: "Poppins", Sans-serif !important;
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    line-height: 1.2;
+    text-align: center;
+    color: #123740;
+    margin-bottom: 20px;
+}
+
+.content-area h4 {
+    font-family: "Poppins", Sans-serif !important;
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    line-height: 1.2;
+    text-align: left;
+    color: #123740;
+    margin-top: 30px;
+}
+
+.content-area p strong {
+    font-weight: 600 !important;
+    color: #123740 !important;
+}
+
+.job-details-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.job-description {
+    width: 60%;
+}
+
+.job-application-form {
+    width: 35%;
+    padding: 20px;
+    background-color: #F1F1F1;
+    border-radius: 20px;
+}
+
+.job-application-form input[type="text"],
+.job-application-form input[type="email"],
+.job-application-form input[type="file"],
+.job-application-form select,
+.job-application-form textarea {
+    margin: 0;
+    padding: 12px 15px 12px 15px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    border-radius: 10px 10px 10px 10px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #6B6B6B;
+}
+
+.job-application-form textarea {
+    height: 100px;
+    overflow: auto;
+    resize: none;
+}
+
+.job-application-form input[type="submit"] {
+    margin: 0 auto !important;
+    background: #E74916 url(https://3r.projectnyou.com/wp-content/uploads/2024/07/arrow.png) no-repeat right !important;
+    color: #FFFFFF !important;
+    font-weight: 600 !important;
+    padding: 10px 50px 10px 25px !important;
+    border-radius: 8px;
+    display: block;
+}
+
+.job-application-form ::placeholder {
+    color: #6B6B6B;
+    opacity: 1;
+}
+
+.job-application-form ::-ms-input-placeholder {
+    color: #6B6B6B;
+}
+
+.job-application-form label {
+    font-family: "Poppins", Sans-serif !important;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #123740;
+}
+
+.job-application-form p {
+    font-family: "Poppins", Sans-serif !important;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #6B6B6B;
+}
+
+.job-application-form p a {
+    font-weight: 600;
+}
+
+.text-center {
+    text-align: center;
+}
+
+@media only screen and (max-width:760px) {
+    #job-filters {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .job-card {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .job-card figure {
+        width: 100%;
+    }
+
+    .job-card .job-title-experience {
+        width: 100%;
+    }
+
+    .job-card .job-location {
+        width: 100%;
+    }
+
+    .job-card .job-type {
+        width: 100%;
+    }
+
+    .job-card .apply-btn {
+        width: 100%;
+    }
+
+    .content-top-section {
+        margin: 0 auto;
+        padding: 30px 15px;
+    }
+
+    .content-top-section h1 {
+        font-size: 24px !important;
+    }
+
+    .content-top-section ul {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .content-top-section ul li {
+        font-size: 16px;
+    }
+
+    .content-area {
+        padding: 30px 15px;
+    }
+
+    .content-area h2 {
+        font-size: 20px !important;
+    }
+
+    .content-area h3 {
+        font-size: 18px !important;
+    }
+
+    .content-area h4 {
+        font-size: 18px !important;
+    }
+
+    .job-details-container {
+        flex-wrap: wrap;
+    }
+
+    .job-description {
+        width: 100%;
+    }
+
+    .job-description p,
+    .job-description ul li {
+        font-size: 14px !important;
+    }
+
+    .job-application-form {
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (min-width:761px) and (max-width:1023px) {
+    .content-top-section ul li {
+        font-size: 16px !important;
+    }
+}
